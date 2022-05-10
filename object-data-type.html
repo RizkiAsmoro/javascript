@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Data Type</title>
+</head>
+<body>
+    <script>
+        const siswa={};
+
+        //ubah property/attribute/index tidak lagi number
+        siswa["nama"] = "Rizki Asmoro"; 
+        siswa["alamat"] = "Jakarta";
+        siswa["kelas"] = 12;
+
+        console.table(siswa);
+
+        delete siswa["kelas"];
+        console.table(siswa);
+
+        // membuat object property
+        const anggota = {
+            "nama" : "Karim Benzema",
+            alamat : "Bandung",
+            "kelas" : 12
+        };
+        console.table(anggota);
+
+        //mengakses object property
+        console.info(`Nama Siswa :${anggota.nama}`);
+        console.info(`Alamat Siswa : ${anggota.alamat}`);
+        console.info(`Kelas Siswa : ${anggota.kelas}`);
+
+    </script>
+
+</body>
+</html>

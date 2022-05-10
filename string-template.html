@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Template</title>
+</head>
+<body>
+    <script>
+        // String Template menggunakan backtick ``
+
+        //sample 1
+        const firstName = "Rizki";
+        const middleName = "Wilianto";
+        const lastName = "Asmoro"
+        const fullName = `Name : ${firstName} ${middleName} ${lastName}`;
+
+        console.info(fullName);
+
+        // String Template Expression
+        const nilai = 100;
+        const sample2 = `Name : ${fullName}, lulus : ${nilai > 70}`;
+        console.info(sample2);
+
+        //Multiline String
+        let multiline = ` Nama saya Rizki Wilianto Asmoro
+pekerjaan saat ini adalah SAP ABAP Consultant,
+namun saya tertarik dengan JavaScript  
+        `;
+
+        console.info(multiline);
+    </script>
+</body>
+</html>
