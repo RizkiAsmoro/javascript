@@ -5,7 +5,7 @@
 */
 
 // Berikut adalah contoh menggunakan Operator IF
-/*
+
 const nilai = 89;
 let x;
 
@@ -14,11 +14,9 @@ if (nilai >= 75){
 }else{
     x = "Anda TIDAK Lulus";
 }
-document.writeln(`<p>${x}</p>`)
-*/
+
 
 //Berikut contoh menggunakan Ternary Operator
 
-const nilai = 75;
-const x = nilai >= 75 ? "Anda LULUS" : "Anda TIDAK lulus";
+x = nilai >= 75 ? "Anda LULUS" : "Anda TIDAK lulus";
 document.writeln(`<p>${x}</p>`);
