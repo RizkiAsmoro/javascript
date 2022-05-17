@@ -4,7 +4,11 @@
 */
 
 
-const student = {};
+const student = {
+    address: {
+        country : "Indonesia"
+    }
+};
 let student_1;
 
 // pengecekan menggunakan IF
@@ -21,5 +25,4 @@ document.writeln(`<p>${student_1}</p>`)
 
 /*
 - Dari kedua pengecekan diatas maka Optional Chaining lebih efektif dalam penulisan codingnya
-- Hasil kedua sama-sama undefine karena property country tidak ada
  */
