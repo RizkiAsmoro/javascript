@@ -1,4 +1,4 @@
- /*
+       /*
         Operator Logika : digunakan untuk tipeda data boolean
         && = Dan
         || = Atau
