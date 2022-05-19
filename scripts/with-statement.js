@@ -4,9 +4,9 @@
 */
 
 const name ={
-    firstName : "Rizki",
-    middleName : "Wilianto",
-    lastName : "Asmoro"
+    firstName   : "Rizki",
+    middleName  : "Wilianto",
+    lastName    : "Asmoro"
 };
 
 with(name){
