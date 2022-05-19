@@ -14,3 +14,15 @@ for(const character of address){
     document.writeln(`<p>${character}</p>`)
 }
 
+//Akan error jika ingin mengakses object seperti dibawah ini
+/*const student = {
+    name : "Jaka",
+    age : 17,
+    gender : "Male"
+};
+for(const x of student){
+    document.writeln(`<p>${x}</p>`)
+}
+*/
+//Error yang muncul saat inspec-console "student is not iterable"
+
