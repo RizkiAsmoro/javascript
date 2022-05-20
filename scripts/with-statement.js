@@ -18,3 +18,10 @@ with(name){
 /* With Statement tidak direkomendasikan untuk digunakan 
 karena dapat membuat ambigu jika terdapat property yang sama
 */
+
+//jika tidak menggunakan with statement maka mengakses object nya sepert berikut
+
+console.info(name.firstName);
+console.info(name.middleName);
+console.info(name.lastName);
+// jika objectnya banyak maka akan menjadi tidak efektif tanpa menggunakan with statement
