@@ -10,6 +10,7 @@ Function
 - Parameter bisa lebih dari 1 dan dipisahkan dengan koma dan tidak perlu dideclare seperti let, const, atau var
 */
 
+// Contoh penggunaan Function Parameter
 function perkalianDuaNilai(x,y,z){//membuat function
     z = x * y
     document.writeln(`${x} x ${y} = ${z}`);
