@@ -35,12 +35,12 @@ document.writeln(`<p>Your Final Exam Value ${finalValue}</p>`);
 // Return dapat digunakan untuk menghentikan eksekusi sebuah function
 function isContains(array, searchValue){
     for (const element of array){
-        document.writeln(`<p>index ${element}</p>`)
-        if (element === searchValue){
+        document.writeln(`<p>index ${element}</p>`) //pembuktian bahwa jika nilai sudah ketemua maka proses berakhir pada index tersebut
+        if (element === searchValue){ // Jika element sama dengan apa yang dicari makan nilai yang dicari sudah ketemu dan return true maka akan menghentikan proses 
             return true;//jika nilai yang dicari ada
         }
     }
-    return false;//jika nilai yang dicari tidak ada
+    return false;//jika nilai yang dicari tidak ada makan false
 }
 const array = [12,2,23,4,32,1124,24,13,234,346,234];//data aray
 const search = 24;//nilai yang dicari
