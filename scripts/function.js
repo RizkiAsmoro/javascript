@@ -11,8 +11,8 @@ Function
 */
 
 // Contoh penggunaan Function Parameter
-function perkalianDuaNilai(x,y,z){//membuat function
+function perkalianDuaNilai(x,y,z){//membuat function. Parameter ada di dalam kurung yang bisa diakses seperti variable
     z = x * y
     document.writeln(`${x} x ${y} = ${z}`);
 };
-perkalianDuaNilai (x= 10,y= 5)//memanggil function
+perkalianDuaNilai (x= 10,y= 5)//memanggil function. dalam kurung adalah value parameter
