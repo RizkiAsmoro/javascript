@@ -7,4 +7,4 @@ function donatur (alamat, nama = "Hamba ALLAH SWT"){
     console.log(alamat);
     console.log(nama);
 } 
-donatur("Jakarta");
+donatur("Jakarta", "Rizki");
