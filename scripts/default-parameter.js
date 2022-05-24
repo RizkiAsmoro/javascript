@@ -1,4 +1,4 @@
-      /*
+/*
 Default Parameter
 - Ketika parameter tidak diberi data/default value maka secara otomatis patameter bisa diisi default value
 */
