@@ -4,13 +4,16 @@ Function as Variable
 - Jadi function bisa kita simpan sebagai variable, bisa juga dikirim ke function lainnya
 */
 
-function perkalian(a,b){
-    kali = a * b
-    document.writeln(`<p>Hasil perkalian ${kali}</p>`)
+function sayHello(name){
+    document.writeln(`<p>Hello ${name}</p>`)
 }
-perkalian(10,5);
-const var_1 = perkalian; // function perkalian dijadikan variable var_1
-var_1(5,4);
+sayHello("Rizki");
+const var_1 = sayHello; // function sayHello dijadikan variable var_1
+var_1("Asmoro");//parameter var_1
 
 // function dapat dikirim ke parameter seperti di bawah ini
-
+function sayHi(callback){
+    callback("Wilianto");
+}
+sayHi(sayHello);
+sayHi(var_1);
