@@ -5,11 +5,30 @@ Function Generator :
 - Datanya bisa diiterasi seperti array
 - Menggunakan tanda * setelah kata function
 - Untuk mengembalikan data setiap iterasinya maka menggunakan kata kunci yield
+- Data dalam generator tidak dapat diakses secara index, beda seperti array
 */
 
+// Contoh 1
 function* createNames(){
     yield "Rizki";
     yield "Wilianto";
     yield "Asmoro";
 }
-console.info(createNames())
+const names = createNames();
+for (const x of names) {
+    console.info(x); 
+}
+
+// Contoh 2
+function* oddNumbers(value){
+    for (let i = 0; i <= value; i++) {
+    if (i % 2 === 1) {
+        yield i;
+    }
+    }
+}
+const numbers = oddNumbers(20);
+for (const x of numbers) {
+    console.info(x);
+    
+}
