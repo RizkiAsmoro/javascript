@@ -13,6 +13,13 @@ Function
 // Contoh penggunaan Function Parameter
 function perkalianDuaNilai(x,y,z){//membuat function. Parameter ada di dalam kurung yang bisa diakses seperti variable
     z = x * y
-    document.writeln(`${x} x ${y} = ${z}`);
+    document.writeln(`<p>${x} x ${y} = ${z}</p>`);
 };
 perkalianDuaNilai (x= 10,y= 5)//memanggil function. dalam kurung adalah value parameter
+
+
+//Contoh penggunaan function 
+function penjumlahanDuaNilai (a, b){
+    return a+b;
+}
+document.writeln(penjumlahanDuaNilai(10,20));
