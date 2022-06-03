@@ -8,5 +8,17 @@ Kata Kunci this :
 - Jika di event, this merupakan referensi ke element yang menerima event
 */
 
-//Contoh
-console.info(this);
+//Contoh 1
+console.info(this); //hasilnya Window
+
+//Contoh 2 - function
+function sample(){
+    console.info(this); //hasilnya Window
+    
+    function inner(){
+        console.info(this);
+    }
+    inner();
+
+}
+sample(); 
