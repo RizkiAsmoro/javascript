@@ -5,12 +5,13 @@ Closure
 */
 
 function createAdder(value){
+    //local scope
     const owner = "Rizki";
-
+    
     function add(param){
-        //nested
-        console.info(owner);
-        return value + param;
+        //nested function
+        console.info(owner);//mengakses local scope dari nested
+        return value + param;//mengakses 'value' yang ada di local scope di dalam nested 
     }
     return add;
 }
