@@ -16,9 +16,17 @@ function sample(){
     console.info(this); //hasilnya Window
     
     function inner(){
-        console.info(this);
+        console.info(this);//hasilnya Window
     }
     inner();
-
 }
 sample(); 
+
+//Contoh 3 - object method
+const person = {
+    name: "Rizki",
+    sayHello: function(value){
+        console.info(`Hello ${value} My name is ${this.name}`);
+    }
+};
+person.sayHello("Asmoro")
