@@ -5,6 +5,7 @@ Object Method:
 - Function didalam properti suatu object
 */
 
+//Contoh 1
 const person = {
     name: "Rizki",
     sayHi: function(name){
@@ -13,3 +14,12 @@ const person = {
 };
 
 person.sayHi("Asmoro")
+
+// Contoh 2
+const student = {
+    name1: "Alkha"
+};
+student.sayHallo = function (name1){
+    console.info(`Hallo ${name1}`);
+}
+student.sayHallo("Maezurra");
