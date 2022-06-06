@@ -103,3 +103,17 @@ Destructuring Default value
     console.info(city);
     console.info(gender);
 }
+
+//Destructuring Menggunakan Variable Lain
+{
+    const student = {
+        name: "Alkhaleena",
+        city: "Jakarta"
+    };
+    let {name: nama,
+        city:kota,
+        gender:jenisKelamin = "reluctant to say"} = student;
+    console.info(nama);
+    console.info(kota);
+    console.info(jenisKelamin);
+}
