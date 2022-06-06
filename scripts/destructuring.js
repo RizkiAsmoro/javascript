@@ -18,6 +18,7 @@ console.info(last);
 */
 
 //Destructuring Array
+{
 const name = ["Rizki", "Wilianto", "Asmoro", "Alkhaleena", "Maezurra"];
 const [firstName, middleName, lastName, ...others] = name;
 
@@ -25,9 +26,10 @@ console.info(firstName);
 console.info(middleName);
 console.info(lastName);
 console.info(others);//sisanya akan dijadikan array
-
+}
 
 // Destructuring Object and nested
+{
 const student = {
     sName : "Jaka",
     sGender: "Male",
@@ -48,4 +50,29 @@ console.info(street);
 console.info(city);
 console.info(country); 
 console.info(sOthers);
+}
 
+
+//Destructuring Function Parameter
+{
+    function desParameter ({firstName, middleName,lastName}){
+        console.info(firstName);
+        console.info(middleName);
+        console.info(lastName);
+    }
+    const name = {
+        firstName : "Alkhaleena",
+        middleName : "Maezurra",
+        lastName : "Asmoro",
+    };
+    desParameter(name);
+}
+
+//Destructuring function array
+{
+    function sum([x, y]){
+        return x + y;
+    }
+    console.info(sum([10,11]));
+    console.info(sum([20,22]));
+}
