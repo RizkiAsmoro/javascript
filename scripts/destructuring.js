@@ -76,3 +76,30 @@ console.info(sOthers);
     console.info(sum([10,11]));
     console.info(sum([20,22]));
 }
+
+/*
+Destructuring Default value
+- Misal kita melakukan destructuring terhadap array yang tidak ada datanya maka kita dapat menambahkan default value
+- Pada object jika property-nya tidak ada maka kita bisa menambahkan default value
+*/
+
+//array
+{
+    const name = ["Jaka", "Tingkir"];
+    const [firstName, middleName, lastName="Tarub"] = name; //default value-nya adalah tarub 
+
+    console.info(firstName);
+    console.info(middleName); 
+    console.info(lastName);
+}
+//object
+{
+    const student = {
+        name : "Rizki",
+        city: "Jakarta",
+    };
+    let{name, city, gender = "reluctant to say"} = student;
+    console.info(name);
+    console.info(city);
+    console.info(gender);
+}
