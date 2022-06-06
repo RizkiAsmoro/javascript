@@ -10,7 +10,7 @@ const person = {
     name:"rizki",
     sayHello: (name) =>{
         console.info(this);//Window
-        console.info(`Hello ${name} my name is ${this.name}`)//this tidak dapat digunakan
+        console.info(`Hello ${name} my name is ${this.name}`)//this tidak dapat digunakan karena this-nya mengacu pada window
         console.info(`Hello ${name}`)
 
     }
