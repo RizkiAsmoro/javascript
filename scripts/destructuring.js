@@ -27,11 +27,12 @@ console.info(lastName);
 console.info(others);//sisanya akan dijadikan array
 
 
-// Destructuring Object
+// Destructuring Object and nested
 const student = {
     sName : "Jaka",
     sGender: "Male",
     sAddress : {
+        //nested
         street : "Setiabudi",
         city: "Jakarta",
         country: "Indonesia"
@@ -40,7 +41,11 @@ const student = {
     clubFav: "AC Milan"
 };
 
-let {sName, sGender, ...sOthers} = student;
+let {sName, sGender,sAddress:{street, city, country}, ...sOthers} = student; // desctructuring object nested
 console.info(sName);
 console.info(sGender); 
+console.info(street); 
+console.info(city);
+console.info(country); 
 console.info(sOthers);
+
