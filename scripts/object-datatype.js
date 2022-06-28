@@ -1,4 +1,8 @@
-const siswa={};
+/*
+Tipe data Object
+*/
+
+const siswa={};//object kosong menggunakan kurung kurawal
 
 //ubah property/attribute/index tidak lagi number
 siswa["nama"] = "Rizki Asmoro"; 

@@ -1,4 +1,7 @@
-        const examValue = 66;
+/*
+If Expression
+*/       
+       const examValue = 66;
 
         if (examValue > 80){
             document.writeln("<p>Your Grade is A</p>")

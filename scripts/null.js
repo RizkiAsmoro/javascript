@@ -1,4 +1,5 @@
     /*
+    Null:
     - Merupakan data kosong
     - Berbeda dengan undefine, jika null memang datanya sudah diset tapi memang datanya null
     - Jika undefine maka datanya belum didefinisikan atau belum ditambah value apapun
