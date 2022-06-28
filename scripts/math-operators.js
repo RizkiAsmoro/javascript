@@ -1,3 +1,13 @@
+/*
+Operator Aritmatika :
++ untuk penjumlahan
+- untuk pengurangan
+* untuk perkalian
+** untuk Exponensial (pangkat)
+/ untuk pembagian
+% untuk modulo(sisa bagi)
+*/
+
 let result = 1 + 3;
 document.writeln("<p> 1 + 3 = " + result + "</p>");
 let originalResult = result;

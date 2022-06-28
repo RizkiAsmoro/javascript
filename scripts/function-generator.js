@@ -21,6 +21,7 @@ for (const x of names) {
 
 // Contoh 2
 function* oddNumbers(value){
+    debugger;
     for (let i = 0; i <= value; i++) {
     if (i % 2 === 1) {
         yield i;

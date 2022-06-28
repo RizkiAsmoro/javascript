@@ -1,4 +1,5 @@
 //unary digunakan untuk operasi 1 data saja
+
 let result = +1; // nilai default sebenarnya positif jadi bisa saja ditulis 1
 document.writeln("<p>" + result + "</p>")
 

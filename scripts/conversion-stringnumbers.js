@@ -9,7 +9,7 @@
         const value2 = 1;
         const sum = value1 + value2;
 
-        document.writeln(`${sum}`); // hasilnya ada lah 2
+        document.writeln(`${sum}`); // hasilnya adalah 2
 
         document.writeln(`<p>${parseInt("1.9")}</p>`);// hasilnya adalah 1 karena integer menampilkan bilangan bulat
         document.writeln(`<p>${parseFloat("1.9")}</p>`);//hasilnya adalah 1.9 karena Float menampilkan bilangan pecahan

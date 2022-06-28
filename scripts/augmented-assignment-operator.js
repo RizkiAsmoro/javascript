@@ -1,3 +1,13 @@
+/*
+Augmented Assignment Operator:
+result = result + 10    samana dengan     result +=10
+result = result - 10    samana dengan     result -=10
+result = result * 10    samana dengan     result *=10
+result = result ** 10    samana dengan     result **=10
+result = result / 10    samana dengan     result /=10
+result = result % 10    samana dengan     result %=10
+*/
+
 let result = 1 + 3;
 document.writeln("<p> 1 + 3 = " + result + "</p>");
 let originalResult = result;

@@ -1,4 +1,4 @@
-        // String Template menggunakan backtick ``
+        // String Template menggunakan backtick dua ``
 
         //sample 1
         const firstName = "Rizki";
