@@ -1,6 +1,6 @@
 /*
 - Operator yang bisa digunakan untuk melihat tipe data sebuah value atau variable Karena JavaScript merupakan dynamic language 
-- Hasil dari operator typeof adalah string
+- Hasil dari operator typeof adalah string tipe datanya
 Misal :
 Undefine = "Undefine"
 Null     = "object"

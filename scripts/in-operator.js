@@ -1,4 +1,5 @@
 /*
+In Operator
 - Operator untuk mengecek ada properti atau tidak pada suatu object
 - Untuk cek index di array ada atau tidak
 */
@@ -14,6 +15,7 @@ if ("nama" in siswa){// true
 }
 
 /*
+NOTE:
 - In Operator hanya mengecek apakah sebuah properti index ada atau tidak, jadi tidak mengecek value nya
 - walaupun nilai propertinya undefine atau null maka dianggap ada
 */

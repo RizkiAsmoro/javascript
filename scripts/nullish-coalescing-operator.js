@@ -1,5 +1,6 @@
 /*
-- Nullist value adalah null dan undefined
+nullish Coalescing Operator:
+- Nullist value adalah nilai null dan undefined
 - Nullist coalescing operator menggunakan ??
 - Jika datanya nullist value maka datanya diset akan diubah menjadi apa 
 - Lebih sederhana dibandingkan mengunakan IF Operator
