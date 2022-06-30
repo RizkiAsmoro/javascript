@@ -1,27 +1,30 @@
 /*
+Optional Chaining:
 - Optional Chaining Operator (?) digunakan untuk mengamankan ketika ingin mengakses proprty sebuah data nullish
 - Jika mencoba akses property dari sebuah object dari nullish tanpa menggunakan optional chaining maka hasilnya error
 */
 
 
-const student = {
-    address: {
-        country : "Indonesia"
+const x= {
+    a: {
+        b: "Data B"
     }
 };
-let student_1;
+let y;
 
 // pengecekan menggunakan IF
-if (student.address !== undefined && student.address !== null){
-    student_1 = student.address.country;
+document.writeln(`<p>------Pengecekan IF------</p>`)
+if (x.a !== undefined && x.b !== null){
+    y = x.a.b;
 }
 document.writeln("Data Success");
-document.writeln(`<p>${student_1}</p>`)
+document.writeln(`<p>${y}</p>`)
 
 // pengecekan menggunakan Optional Chaining
-let student_2 = student?.address?.country;
+document.writeln(`<p>------Pengecekan Optional Chaining------</p>`)
+let z = x?.a?.b;
 document.writeln("Data Success");
-document.writeln(`<p>${student_1}</p>`)
+document.writeln(`<p>${z}</p>`)
 
 /*
 - Dari kedua pengecekan diatas maka Optional Chaining lebih efektif dalam penulisan codingnya
