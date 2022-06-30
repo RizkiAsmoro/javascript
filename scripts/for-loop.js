@@ -19,9 +19,22 @@ for(let x = 1;x <=5;x++){
 
 // Case Ganji Genap menggunakan perulangan for dan if
 for(let z = 1;z <=5;z++){
-    if(z % 2){
-        document.writeln(`<p>${z}Ganjil</p>`)
+    if(z % 2 == 1){
+        document.writeln(`<p>${z} = Ganjil</p>`)
     }else{
-        document.writeln(`<p>${z}Genap</p>`);
+        document.writeln(`<p>${z} = Genap</p>`);
+    }
+}
+
+// Case Fizz Buzz
+for (let number =1; number <= 30; number++){
+    if(number % 3 == 0 && number % 5 == 0  ){
+        document.writeln(`FizzBuzz,`)
+    }else if(number % 5 == 0 ){
+        document.writeln(`Buzz,`)
+    }else if(number % 3 == 0){
+        document.writeln(`Fizz,`)
+    }else{
+        document.writeln(`${number},`)
     }
 }
