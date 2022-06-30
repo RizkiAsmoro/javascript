@@ -4,7 +4,7 @@ Falsy
 - Pada JavaScript kondisi tidak hanya boolean yang true/false tapi diluar boolean pun bisa
 Contoh data Falsy :
  1. false       =  dianggap false
- 2. 0, -0       =  dianggap false
+ 2. -0, 0       =  dianggap false
  3. "",'',``    = semua string kosong dianggap false
  4. null        = null dianggap false
  5. undefined   = dianggap false
@@ -27,4 +27,25 @@ if(data){
     document.writeln("<p>True</p>");
 }else{
     document.writeln("<p>Fasle</p>");
+}
+
+const a = null; // false
+if(a){
+    document.writeln(`<p>True</p>`);
+}else{
+    document.writeln(`<p>False</p>`)
+}
+
+const b = -1;//true
+if(b){
+    document.writeln(`<p>True</p>`)
+}else{
+    Document.writeln(`<p>False</p>`)
+}
+
+const c = NaN;//false
+if(c){
+    document.writeln(`<p>True</p>`)
+}else{
+    document.writeln(`<p>False</p>`)
 }
