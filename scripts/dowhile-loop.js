@@ -9,3 +9,5 @@ do {
     document.writeln(`<p>do while loop ${x}</p>`)
     x++;
 }while(x <=5);
+
+
