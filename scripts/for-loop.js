@@ -15,4 +15,13 @@ for(let x = 1;x <=5;x++){
 }
 // let x = 1 adalah Init Statement
 // x <=5 adalah condition
-// X++ adalah post statement
+// x++ adalah post statement
+
+// Case Ganji Genap menggunakan perulangan for dan if
+for(let z = 1;z <=5;z++){
+    if(z % 2){
+        document.writeln(`<p>${z}Ganjil</p>`)
+    }else{
+        document.writeln(`<p>${z}Genap</p>`);
+    }
+}
