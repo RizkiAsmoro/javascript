@@ -25,16 +25,3 @@ for(let z = 1;z <=5;z++){
         document.writeln(`<p>${z} = Genap</p>`);
     }
 }
-
-// Case Fizz Buzz
-for (let number =1; number <= 30; number++){
-    if(number % 3 == 0 && number % 5 == 0  ){
-        document.writeln(`FizzBuzz,`)
-    }else if(number % 5 == 0 ){
-        document.writeln(`Buzz,`)
-    }else if(number % 3 == 0){
-        document.writeln(`Fizz,`)
-    }else{
-        document.writeln(`${number},`)
-    }
-}
