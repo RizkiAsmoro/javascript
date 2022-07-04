@@ -16,6 +16,7 @@ while (true){
 // Penggunaan continue;
 for (let y = 1; y <= 5; y++){// loop dari 1 sampai 5
     if (y % 2 === 0){
+        //menampilkan bilangan ganjil saja
         continue;
     }
     document.writeln(`<p>Angka Ganjil ${y}</p>`)//tampilkan yang ganjil
