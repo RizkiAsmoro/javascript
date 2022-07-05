@@ -15,5 +15,5 @@ for(const property in student){//untuk melakukan perulangan pada semua properti 
 //Contoh pada array
 const name = ["Rizki", "Wilianto", "Asmoro"];
 for(const index in name){
-    document.writeln(`<p>${index} : ${name[index]}</p>`)
+    document.writeln(`<p>${index}</p>`)
 }
