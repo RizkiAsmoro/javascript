@@ -23,17 +23,11 @@ for (let y = 1; y <= 5; y++){// loop dari 1 sampai 5
 }
 
 // Bilangan prima
-
+document.writeln(`--------Bilangan Prima--------`)
 for(number = 2; number <= 100; number++){
-    if(number == 3 || number == 5 || number == 7){
+    if(number == 2 || number == 3 || number == 5 || number == 7){
         document.writeln(`<p>${number} prima</p>`)
-    }else if(number % 2 == 0){
-        continue;
-    }else if(number % 3 == 0) {
-        continue;
-    }else if(number % 5 == 0){
-        continue;
-    }else if (number % 7 == 0){
+    }else if(number % 2 == 0 || number % 3 == 0 || number % 5 == 0 || number % 7 == 0){
         continue;
     }else if(number % number == 0){
         document.writeln(`<p>${number} prima</p>`)
