@@ -19,6 +19,7 @@ console.info(last);
 
 //Destructuring Array
 {
+    console.log(`----Destructuring Array----`)
 const name = ["Rizki", "Wilianto", "Asmoro", "Alkhaleena", "Maezurra"];
 const [firstName, middleName, lastName, ...others] = name;
 
@@ -30,6 +31,7 @@ console.info(others);//sisanya akan dijadikan array
 
 // Destructuring Object and nested
 {
+console.log(`----Destructuring Object and nested----`)
 const student = {
     sName : "Jaka",
     sGender: "Male",
@@ -55,6 +57,7 @@ console.info(sOthers);
 
 //Destructuring Function Parameter
 {
+    console.log(`----Destructuring Function Parameter----`)
     function desParameter ({firstName, middleName,lastName}){
         console.info(firstName);
         console.info(middleName);
@@ -69,7 +72,8 @@ console.info(sOthers);
 }
 
 //Destructuring function array
-{
+{   
+    console.log(`----Destructuring function array----`)
     function sum([x, y]){
         return x + y;
     }
@@ -85,6 +89,7 @@ Destructuring Default value
 
 //array
 {
+    console.log(`----Destructuring Default value array----`)
     const name = ["Jaka", "Tingkir"];
     const [firstName, middleName, lastName="Tarub"] = name; //default value-nya adalah tarub 
 
@@ -94,6 +99,7 @@ Destructuring Default value
 }
 //object
 {
+    console.log(`----Destructuring Default value object----`)
     const student = {
         name : "Rizki",
         city: "Jakarta",
@@ -105,7 +111,8 @@ Destructuring Default value
 }
 
 //Destructuring Menggunakan Variable Lain
-{
+{   
+    console.log(`----Destructuring Variable----`)
     const student = {
         name: "Alkhaleena",
         city: "Jakarta"
