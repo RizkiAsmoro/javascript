@@ -127,9 +127,20 @@ Destructuring Default value
 
 // Destructuring String
 {
+    console.log(`----Destructuring String----`)
     const name = "rizkiasmoro@gmail.com"
     const [...n] = name;
 
     console.info(n);
+}
 
+{
+// Destructuring string split by
+    console.log(`----Destructuring String split by----`)
+    const date = {bithDay : '06/07/2022'};
+    const [d,m,y] = date.bithDay.split('/');
+    console.info(d,m,y);
+    console.info(d);
+    console.info(m);
+    console.info(y);
 }
