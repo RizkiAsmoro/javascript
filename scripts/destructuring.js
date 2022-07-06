@@ -124,3 +124,12 @@ Destructuring Default value
     console.info(kota);
     console.info(jenisKelamin);
 }
+
+// Destructuring String
+{
+    const name = "rizkiasmoro@gmail.com"
+    const [...n] = name;
+
+    console.info(n);
+
+}
