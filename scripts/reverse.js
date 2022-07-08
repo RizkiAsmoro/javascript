@@ -14,7 +14,8 @@ console.info(`Reverse Angka ${angka}`)
 // Reverse String
 function reverse(s) {
     return s.split("").reverse().join("");
-    
   }
   const x = reverse("rizki");
   console.info(`${x}`);
+
+    
