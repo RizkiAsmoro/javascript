@@ -16,9 +16,13 @@ Odd and Even number
 // // document.writeln(`<p>${found}</p>`)
 
 
-const number = 13;
+const number = 12;
 if (number % 2 == 0){
     document.writeln(`<p>${number} is even number</p>`)
 }else{
     document.writeln(`<p>${number} is odd number</p>`)
 }
+
+const array = [1,2,3,4,5,6,7,8,9];
+const odd = array.filter(num => {return num % 2 !== 0;});
+document.writeln(`${odd} is odd number`);
