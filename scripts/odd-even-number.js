@@ -23,6 +23,7 @@ if (number % 2 == 0){
     document.writeln(`<p>${number} is odd number</p>`)
 }
 
+// using filter method to get odd number in array
 const array = [1,2,3,4,5,6,7,8,9];
 const odd = array.filter(num => {return num % 2 !== 0;});
 document.writeln(`${odd} is odd number`);
