@@ -15,7 +15,7 @@ for (let i = 0; i < nama.length; i++) {
     console.info(`${i} ${nama[i]}`)
 }
 
-//Contoh foreach untuk loop tanpa for
+//Contoh foreach dan function expression untuk loop tanpa fo
 const brand = ["Nike","Adidas","Puma","NewBalance"];
 brand.forEach(function(n) {
     console.info(`${n}`)
