@@ -3,12 +3,20 @@ Palindrome:
 
 */
 
-//palindrome array
+// Palindrome String
 
-// const angka = [1,2,3,4,3,2,1,2];
-// // const [... n] = angka;
-// console.info(`${angka}`)
-// const balik = angka.reverse()
+let data = "kodOK" 
 
-// const result = angka === balik
-// console.info(`${result}`)
+function checkPlindrome(n){
+    let a = n.toLowerCase().split('');
+    let b = a.join();
+    let reverseArray = [...b].reverse().join('');
+
+    if(b === reverseArray){
+        return true;
+    }else{
+        return false;
+    }
+}
+console.info(checkPlindrome(data))
+
