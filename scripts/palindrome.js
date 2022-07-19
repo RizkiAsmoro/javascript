@@ -28,10 +28,23 @@ checkPlindrome(data3);
 
 // Contoh 2 (cek palindrome string)
 {
-    function isPalindrome(str){
-        return str.toLowerCase() == str.toLowerCase().split('').reverse().join(''); 
+    function isPalindrome(x){
+        return x.toLowerCase() == x.toLowerCase().split('').reverse().join(''); 
     }
-
-    let n = isPalindrome('12321')
+    let n = isPalindrome('kodoK')
     console.info(n)
+}
+
+// Contoh Palindrome tanpa reverse
+{ 
+function fastestIsPalindrome(str) {
+    var len = Math.floor(str.length / 2);
+    for (var i = 0; i < len; i++)
+      if (str[i] !== str[str.length - i - 1])
+        return false;
+    return true;
+  }
+
+const x = fastestIsPalindrome("kodok")
+console.info(`${x}`)
 }
