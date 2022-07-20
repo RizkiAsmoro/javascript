@@ -19,3 +19,15 @@ function reverse(s) {
   console.info(`${x}`);
 
     
+{
+// revere String tanpa method reverse()  
+function reverseStr(str){
+  let finalStr = "";
+  for(let i = str.length-1; i >= 0; i--){
+      // console.log(str[i]);
+      finalStr = finalStr + str[i]; // atau finalStr += str[i];
+  }
+  return finalStr;
+}
+console.log(reverseStr("kebalikan"))
+}
