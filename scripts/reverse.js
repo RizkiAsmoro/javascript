@@ -3,7 +3,7 @@ Reverse:
 - Membalik suatu nilai secara urutan
 */
 
-//Reverse Aray
+//Reverse Aray menggunakan method reverse()
 console.info(`----Reverse Aray----`)
 const angka = [1,2,3];
 console.info(`Urutan angka ${angka}`)
@@ -11,7 +11,7 @@ angka.reverse();
 console.info(`Reverse Angka ${angka}`)
 
 
-// Reverse String
+// Reverse String menggunakan method reverse()
 function reverse(s) {
     return s.split("").reverse().join("");
   }
