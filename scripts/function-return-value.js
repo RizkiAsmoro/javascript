@@ -46,3 +46,14 @@ const array = [12,2,23,4,32,1124,24,13,234,346,234];//data aray
 const search = 24;//nilai yang dicari
 const found = isContains(array, search);
 document.writeln(`<p>search value = ${search} ${found}</p>`);
+
+
+{
+    // Cek nilai Ganjil/Genap ' Genap true ' Ganjil False
+    function cekAngka(nilai){
+        if(nilai % 2 == 0)
+        return true
+    return false;
+    }
+}
+document.writeln(cekAngka(4))
